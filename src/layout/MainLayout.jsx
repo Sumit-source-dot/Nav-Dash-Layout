@@ -10,7 +10,6 @@ const HomeLayout = () => {
 
   return (
     <div className="min-h-screen flex">
-      {/* Sidebar */}
       <div
         className={`transition-all duration-300 ${
           isSidebarOpen ? "w-64" : "w-0"
@@ -19,9 +18,8 @@ const HomeLayout = () => {
         <Sidebar />
       </div>
 
-      {/* Main content */}
+
       <div className="flex-1 flex flex-col">
-        {/* ✅ Your real Navbar here */}
         <div className="flex items-center justify-between bg-white shadow p-4">
           <button
             onClick={() => setIsSidebarOpen(!isSidebarOpen)}
@@ -32,12 +30,12 @@ const HomeLayout = () => {
           <Navbar />
         </div>
 
-        {/* Page content */}
+
         <main className="container mx-auto px-4 py-6">
           <Outlet />
         </main>
 
-        {/* Footer */}
+    
         <Footer />
       </div>
     </div>

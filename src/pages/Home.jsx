@@ -1,79 +1,8 @@
-// const Home = () => {
-//   return (
-//     <div className="min-h-screen p-8 bg-gradient-to-r from-white via-slate-100 to-white">
-//       <header className="mb-12">
-//         <h1 className="text-4xl font-bold text-gray-800 leading-tight">
-//           Welcome to <span className="text-blue-600">Our Corporate Culture</span>
-//         </h1>
-//         <p className="text-gray-600 mt-4 text-lg max-w-3xl">
-//           Empowering people, embracing innovation, and cultivating a culture of excellence.
-//         </p>
-//       </header>
-
-//       <div className="grid md:grid-cols-2 gap-8">
-//         {/* Mission */}
-//         <section className="bg-white p-6 rounded-lg shadow-md border-l-4 border-blue-600">
-//           <h2 className="text-2xl font-semibold text-gray-800 mb-2">🚀 Our Mission</h2>
-//           <p className="text-gray-700 leading-relaxed">
-//             To deliver innovative solutions with integrity, passion, and excellence, while fostering a collaborative and inclusive environment.
-//           </p>
-//         </section>
-
-//         {/* Vision */}
-//         <section className="bg-white p-6 rounded-lg shadow-md border-l-4 border-green-600">
-//           <h2 className="text-2xl font-semibold text-gray-800 mb-2">🌍 Our Vision</h2>
-//           <p className="text-gray-700 leading-relaxed">
-//             To be a global leader in transforming industries through technology, with people and sustainability at the core.
-//           </p>
-//         </section>
-
-//         {/* Values */}
-//         <section className="bg-white p-6 rounded-lg shadow-md border-l-4 border-purple-600">
-//           <h2 className="text-2xl font-semibold text-gray-800 mb-2">💡 Our Core Values</h2>
-//           <ul className="list-disc list-inside text-gray-700 space-y-1">
-//             <li>Integrity & Trust</li>
-//             <li>Innovation & Curiosity</li>
-//             <li>Empathy & Inclusion</li>
-//             <li>Growth & Learning</li>
-//           </ul>
-//         </section>
-
-//         {/* Culture */}
-//         <section className="bg-white p-6 rounded-lg shadow-md border-l-4 border-yellow-600">
-//           <h2 className="text-2xl font-semibold text-gray-800 mb-2">🤝 Our Culture</h2>
-//           <p className="text-gray-700 leading-relaxed">
-//             A culture that encourages idea-sharing, supports diversity, rewards hard work, and nurtures both personal and professional development.
-//           </p>
-//         </section>
-//       </div>
-
-//       {/* Team Section */}
-//       <section className="mt-16 bg-white p-6 rounded-lg shadow-md border-t-4 border-indigo-600">
-//         <h2 className="text-2xl font-semibold text-gray-800 mb-4">👥 Meet Our People</h2>
-//         <p className="text-gray-700 max-w-4xl">
-//           Our team is made up of passionate innovators, creative thinkers, and dedicated professionals who believe in working together to make a difference.
-//         </p>
-//       </section>
-
-//       {/* Innovation Section */}
-//       <section className="mt-12 bg-gradient-to-r from-blue-100 to-indigo-100 p-6 rounded-lg shadow">
-//         <h2 className="text-2xl font-semibold text-gray-900 mb-2">🔧 Innovation at the Core</h2>
-//         <p className="text-gray-800">
-//           We invest in cutting-edge technologies and encourage out-of-the-box thinking to stay ahead in today’s ever-evolving landscape.
-//         </p>
-//       </section>
-//     </div>
-//   );
-// };
-
-// export default Home;
-
 import React from 'react';
 
 const Home = () => {
   return (
     <div className="max-w-4xl mx-auto px-6 py-12">
-      {/* Hero Section */}
       <section className="mb-12">
         <h1 className="text-5xl font-bold text-gray-900 mb-4">
           Hi, I'm <span className="text-blue-600">Sumit</span> 👋
@@ -85,7 +14,7 @@ const Home = () => {
         </p>
       </section>
 
-      {/* Experience Section */}
+      
       <section className="mb-12">
         <h2 className="text-3xl font-semibold text-gray-800 mb-6 pb-2 border-b border-gray-200">
           Professional Journey
@@ -112,7 +41,7 @@ const Home = () => {
         </div>
       </section>
 
-      {/* Skills Section */}
+     
       <section className="mb-12">
         <h2 className="text-3xl font-semibold text-gray-800 mb-6 pb-2 border-b border-gray-200">
           Core Competencies
@@ -155,7 +84,7 @@ const Home = () => {
         </div>
       </section>
 
-      {/* Projects Section */}
+      
       <section>
         <h2 className="text-3xl font-semibold text-gray-800 mb-6 pb-2 border-b border-gray-200">
           Notable Projects

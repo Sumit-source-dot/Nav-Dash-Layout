@@ -1,14 +1,13 @@
 import { useState } from "react";
 import { Outlet } from "react-router-dom";
 import Sidebar from "../components/Sidebar";
-import { Menu } from "lucide-react"; // or any hamburger icon
+import { Menu } from "lucide-react";
 
 const DashboardLayout = () => {
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
 
   return (
     <div className="min-h-screen flex">
-      {/* Sidebar */}
       <div
         className={`transition-all duration-300 ${
           isSidebarOpen ? "w-64" : "w-0"
@@ -17,9 +16,8 @@ const DashboardLayout = () => {
         <Sidebar />
       </div>
 
-      {/* Main Content Area */}
+    
       <div className="flex-1">
-        {/* Navbar with toggle */}
         <div className="bg-white shadow p-4 flex items-center justify-between">
           <button
             onClick={() => setIsSidebarOpen(!isSidebarOpen)}

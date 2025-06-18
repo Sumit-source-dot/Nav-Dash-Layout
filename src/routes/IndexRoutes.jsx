@@ -1,5 +1,5 @@
-import HomeLayout from '../layout/index';
-import Home from '../pages/Home';      // ✅ new import
+import HomeLayout from '../layout/MainLayout';
+import Home from '../pages/Home';     
 import About from '../pages/About';
 import Contact from '../pages/Contact';
 
@@ -8,7 +8,7 @@ const IndexRoutes = {
   element: <HomeLayout />,
   children: [
     {
-      path: '',          // ✅ root route = home
+      path: '',        
       element: <Home />
     },
     {
